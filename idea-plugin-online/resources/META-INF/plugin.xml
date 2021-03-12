@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<idea-plugin url="https://github.com/SoftwareKing/idea-study">
+    <id>cn.sunline.idea.plugin</id>
+    <name>SunlineTools</name>
+    <version>1.0</version>
+    <vendor email="zhangchangbin@sunline.cn" url="http://sunline.cn">cn.sunline</vendor>
+
+    <description>
+        &lt;p&gt;Enhances your productivity when developing applications based on edsp Framework.&lt;/p&gt;
+    </description>
+
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+    <depends>org.jetbrains.idea.maven</depends>
+
+    <idea-version since-build="191.4212.41"/>
+
+    <actions>
+        <group id="Sunline Tools" text="Sunline Tools"
+               popup="true" icon="/icons/halo.png">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="ReplaceInPath"/>
+        </group>
+
+        <!-- 创建Halo Basic -->
+        <action class="cn.sunline.edsp.plugin.NewBasicExeAction"
+                id="cn.sunline.basic.class" description="Online Create Basic"
+                icon="/icons/right/HaloBasic.png"
+                text="service">
+            <add-to-group group-id="Sunline Tools"/>
+        </action>
+
+    </actions>
+</idea-plugin>
