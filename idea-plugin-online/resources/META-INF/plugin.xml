@@ -6,7 +6,7 @@
     <vendor email="zhangchangbin@sunline.cn" url="http://sunline.cn">cn.cnzcb</vendor>
 
     <description>
-        &lt;p&gt;Enhances your productivity when developing applications based on edsp Framework.&lt;/p&gt;
+        &lt;p&gt;Enhances your productivity when developing applications based on Framework.&lt;/p&gt;
     </description>
 
     <depends>com.intellij.modules.lang</depends>
