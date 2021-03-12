@@ -1,4 +1,4 @@
-package cn.sunline.edsp.plugin.model;
+package cn.cnzcb.framework.plugin.model;
 
 public class NewRightContext {
 

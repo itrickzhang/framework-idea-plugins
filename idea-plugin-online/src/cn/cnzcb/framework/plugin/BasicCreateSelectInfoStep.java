@@ -1,11 +1,11 @@
-package cn.sunline.edsp.plugin;
+package cn.cnzcb.framework.plugin;
 
 import com.intellij.ide.util.projectWizard.ModuleWizardStep;
 import com.intellij.openapi.module.Module;
 import com.intellij.openapi.options.ConfigurationException;
 import com.intellij.openapi.project.Project;
-import cn.sunline.edsp.plugin.model.NewRightContext;
-import cn.sunline.edsp.plugin.model.SelectedTypeModel;
+import cn.cnzcb.framework.plugin.model.NewRightContext;
+import cn.cnzcb.framework.plugin.model.SelectedTypeModel;
 
 import javax.swing.*;
 import java.awt.event.ItemEvent;

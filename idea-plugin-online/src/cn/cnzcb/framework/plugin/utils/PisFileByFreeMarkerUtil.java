@@ -1,5 +1,6 @@
-package cn.sunline.edsp.plugin.utils;
+package cn.cnzcb.framework.plugin.utils;
 
+import cn.cnzcb.framework.plugin.model.NewRightModel;
 import com.intellij.ide.projectView.ProjectView;
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.fileEditor.FileEditorManager;
@@ -13,7 +14,6 @@ import com.intellij.openapi.wm.ToolWindow;
 import com.intellij.openapi.wm.ToolWindowManager;
 import com.intellij.util.OpenSourceUtil;
 import freemarker.template.Template;
-import cn.sunline.edsp.plugin.model.NewRightModel;
 
 import java.io.StringWriter;
 

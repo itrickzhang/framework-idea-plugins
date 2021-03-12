@@ -1,7 +1,7 @@
-package cn.sunline.edsp.plugin;
+package cn.cnzcb.framework.plugin;
 
 
-import cn.sunline.edsp.plugin.model.SelectedTypeModel;
+import cn.cnzcb.framework.plugin.model.SelectedTypeModel;
 
 import javax.swing.*;
 import java.awt.*;

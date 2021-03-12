@@ -1,4 +1,4 @@
-package cn.sunline.edsp.plugin;
+package cn.cnzcb.framework.plugin;
 
 /**
  *  Halo Constant

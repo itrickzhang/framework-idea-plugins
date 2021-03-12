@@ -51,6 +51,6 @@ intellij {
     plugins 'maven'
 }
 
-group 'cn.sunline.online.idea'
+group 'cn.cnzcb.plugins.online.idea'
 version pluginVersion
 

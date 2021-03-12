@@ -1,5 +1,6 @@
-package cn.sunline.edsp.plugin;
+package cn.cnzcb.framework.plugin;
 
+import cn.cnzcb.framework.plugin.utils.EdspIdeaUtils;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.DataKeys;
@@ -15,10 +16,9 @@ import com.intellij.openapi.vfs.VirtualFile;
 import org.apache.commons.lang3.StringUtils;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.idea.maven.project.MavenProjectsManager;
-import cn.sunline.edsp.plugin.model.NewRightContext;
-import cn.sunline.edsp.plugin.model.NewRightModel;
-import cn.sunline.edsp.plugin.utils.EdspIdeaUtils;
-import cn.sunline.edsp.plugin.utils.PisFileByFreeMarkerUtil;
+import cn.cnzcb.framework.plugin.model.NewRightContext;
+import cn.cnzcb.framework.plugin.model.NewRightModel;
+import cn.cnzcb.framework.plugin.utils.PisFileByFreeMarkerUtil;
 
 
 /**

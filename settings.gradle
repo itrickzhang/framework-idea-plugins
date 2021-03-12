@@ -1,5 +1,5 @@
-rootProject.name = 'edsp-plugin'
-include(':idea-plugin-online')
+rootProject.name = 'framework-plugin'
+include(':framework-idea-plugins')
 
 
 

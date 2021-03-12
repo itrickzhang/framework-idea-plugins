@@ -1,4 +1,4 @@
-package cn.sunline.edsp.plugin.utils;
+package cn.cnzcb.framework.plugin.utils;
 
 import freemarker.template.Configuration;
 

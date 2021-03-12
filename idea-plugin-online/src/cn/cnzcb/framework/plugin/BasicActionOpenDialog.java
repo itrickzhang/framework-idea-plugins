@@ -1,4 +1,4 @@
-package cn.sunline.edsp.plugin;
+package cn.cnzcb.framework.plugin;
 
 import com.intellij.ide.util.projectWizard.ModuleWizardStep;
 import com.intellij.ide.wizard.AbstractWizard;
